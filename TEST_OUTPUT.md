@@ -1,20 +1,24 @@
-# Test Outpus 
+# Test Output
 
-Executed using
+Command executed:
 
-command:
+```bash
 python manage.py test shipment
+```
 
+Output:
 
-Output :
-
-python manage.py test shipment             
+```text
 Found 8 test(s).
 Creating test database for alias 'default'...
 System check identified no issues (0 silenced).
+
 ........
+
 ----------------------------------------------------------------------
 Ran 8 tests in 0.021s
 
 OK
+
 Destroying test database for alias 'default'...
+```
